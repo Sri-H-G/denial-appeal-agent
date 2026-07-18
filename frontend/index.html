@@ -73,19 +73,29 @@
     font-size: 13px;
     background: var(--panel);
   }
-  .step .label {
+  .step summary {
     font-weight: 700;
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    margin-bottom: 6px;
+    cursor: pointer;
+    list-style: none;
   }
-  .step.tool_call .label { color: var(--tool); }
-  .step.tool_result .label { color: var(--result); }
-  .step.assistant_text .label { color: var(--accent); }
-  .step.error .label { color: var(--error); }
+  .step summary::-webkit-details-marker { display: none; }
+  .step summary::before {
+    content: "▸ ";
+    display: inline-block;
+    transition: transform 0.15s;
+  }
+  .step[open] summary::before {
+    transform: rotate(90deg);
+  }
+  .step.tool_call summary { color: var(--tool); }
+  .step.tool_result summary { color: var(--result); }
+  .step.assistant_text summary { color: var(--accent); }
+  .step.error summary { color: var(--error); }
   .step pre {
-    margin: 0;
+    margin: 8px 0 0;
     white-space: pre-wrap;
     word-break: break-word;
     font-family: "SF Mono", Menlo, monospace;
@@ -94,15 +104,75 @@
   }
   #letter {
     white-space: pre-wrap;
-    font-family: "SF Mono", Menlo, monospace;
-    font-size: 13px;
-    line-height: 1.6;
+    word-break: break-word;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 14px;
+    line-height: 1.7;
     background: var(--panel);
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 20px;
   }
   .placeholder { color: var(--muted); font-size: 13px; }
+
+  .case-select {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .case-btn {
+    background: var(--panel);
+    color: var(--muted);
+    border: 1px solid var(--border);
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .case-btn.active {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+  }
+
+  .doc-badge {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    margin-bottom: 16px;
+    background: var(--panel);
+  }
+  .doc-badge .icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .doc-badge.synthetic .icon { background: #2a3550; color: var(--accent); }
+  .doc-badge.real .icon { background: #33421f; color: var(--result); }
+  .doc-badge .doc-info { font-size: 12px; line-height: 1.5; }
+  .doc-badge .doc-title { font-weight: 700; font-size: 13px; }
+  .doc-badge .doc-sub { color: var(--muted); }
+  .doc-badge .tag {
+    margin-left: auto;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 3px 8px;
+    border-radius: 999px;
+  }
+  .doc-badge.synthetic .tag { background: #2a3550; color: var(--accent); }
+  .doc-badge.real .tag { background: #33421f; color: var(--result); }
 </style>
 </head>
 <body>
@@ -111,6 +181,10 @@
   <div>
     <h1>Denial Appeal Agent</h1>
     <p>Reads the denial, the chart, and the payer policy — drafts a cited appeal. Human review required before sending.</p>
+    <div class="case-select">
+      <button class="case-btn active" data-case="synthetic">Synthetic demo case</button>
+      <button class="case-btn" data-case="uhc_real">Real-world case (UnitedHealthcare)</button>
+    </div>
   </div>
   <button id="runBtn">Run appeal agent</button>
 </header>
@@ -118,6 +192,7 @@
 <main>
   <div class="pane">
     <h2>Live reasoning trail</h2>
+    <div id="docBadge"></div>
     <div id="trace"><p class="placeholder">Click "Run appeal agent" to start.</p></div>
   </div>
   <div class="pane">
@@ -130,20 +205,69 @@
 const runBtn = document.getElementById("runBtn");
 const trace = document.getElementById("trace");
 const letterEl = document.getElementById("letter");
+const docBadge = document.getElementById("docBadge");
+const caseButtons = document.querySelectorAll(".case-btn");
 
-function addStep(type, label, body) {
-  const div = document.createElement("div");
-  div.className = "step " + type;
+let selectedCase = "synthetic";
+
+function addStep(type, label, body, openByDefault) {
+  const details = document.createElement("details");
+  details.className = "step " + type;
+  if (openByDefault) details.open = true;
+
+  const summary = document.createElement("summary");
+  summary.textContent = label;
+
   const pre = document.createElement("pre");
   pre.textContent = body;
-  const labelEl = document.createElement("div");
-  labelEl.className = "label";
-  labelEl.textContent = label;
-  div.appendChild(labelEl);
-  div.appendChild(pre);
-  trace.appendChild(div);
+
+  details.appendChild(summary);
+  details.appendChild(pre);
+  trace.appendChild(details);
   trace.scrollTop = trace.scrollHeight;
 }
+
+async function renderDocBadge(caseId) {
+  docBadge.innerHTML = '<p class="placeholder">Loading source document info...</p>';
+  try {
+    const res = await fetch("/api/case-info?case=" + encodeURIComponent(caseId));
+    const info = await res.json();
+    const isReal = info.source_type === "real";
+    const icon = isReal ? "PDF" : "TXT";
+    const tag = isReal ? "Real document" : "Synthetic";
+    const charCount = info.policy_char_count != null
+      ? info.policy_char_count.toLocaleString() + " characters"
+      : "size unknown";
+
+    docBadge.innerHTML = "";
+    const card = document.createElement("div");
+    card.className = "doc-badge " + info.source_type;
+    card.innerHTML = `
+      <div class="icon">${icon}</div>
+      <div class="doc-info">
+        <div class="doc-title">${info.label}</div>
+        <div class="doc-sub">${info.patient} — ${info.policy_file} (${charCount})</div>
+      </div>
+      <div class="tag">${tag}</div>
+    `;
+    docBadge.appendChild(card);
+  } catch (err) {
+    docBadge.innerHTML = '<p class="placeholder">Could not load document info.</p>';
+  }
+}
+
+caseButtons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+  caseButtons.forEach((b) => b.classList.remove("active"));
+  btn.classList.add("active");
+  selectedCase = btn.dataset.case;
+  renderDocBadge(selectedCase);
+  trace.innerHTML = '<p class="placeholder">Click "Run appeal agent" to start.</p>';
+  letterEl.innerHTML = '<p class="placeholder">Nothing drafted yet.</p>';
+});
+});
+
+renderDocBadge(selectedCase);
 
 runBtn.addEventListener("click", () => {
   trace.innerHTML = "";
@@ -151,32 +275,40 @@ runBtn.addEventListener("click", () => {
   runBtn.disabled = true;
   runBtn.textContent = "Running...";
 
-  const source = new EventSource("/api/run-appeal");
+  const source = new EventSource("/api/run-appeal?case=" + encodeURIComponent(selectedCase));
 
   source.onmessage = (e) => {
     const event = JSON.parse(e.data);
 
     if (event.type === "assistant_text") {
-      addStep("assistant_text", "Agent reasoning", event.text);
+      addStep("assistant_text", "Agent reasoning", event.text, true);
     } else if (event.type === "tool_call") {
-      addStep("tool_call", "Tool call: " + event.tool, JSON.stringify(event.input, null, 2));
+      addStep("tool_call", "Tool call: " + event.tool, JSON.stringify(event.input, null, 2), false);
     } else if (event.type === "tool_result") {
-      addStep("tool_result", "Result: " + event.tool, JSON.stringify(event.output, null, 2));
+      addStep("tool_result", "Result: " + event.tool, JSON.stringify(event.output, null, 2), false);
+    } else if (event.type === "review_start") {
+      addStep("tool_call", "Adversarial review — round " + event.round, "Reviewer evaluating draft...", true);
+    } else if (event.type === "review_result") {
+      const isApprove = event.verdict === "APPROVE";
+      addStep(isApprove ? "tool_result" : "error",
+        "Reviewer verdict: " + event.verdict,
+        event.feedback || "No issues found.", true);
     } else if (event.type === "final") {
       letterEl.innerHTML = "";
       const pre = document.createElement("pre");
+      pre.id = "letter-text";
       pre.textContent = event.letter;
       letterEl.appendChild(pre);
       source.close();
       runBtn.disabled = false;
       runBtn.textContent = "Run appeal agent";
     } else if (event.type === "error") {
-      addStep("error", "Error", event.message);
+      addStep("error", "Error", event.message, true);
       source.close();
       runBtn.disabled = false;
       runBtn.textContent = "Run appeal agent";
     } else if (event.type === "max_iterations") {
-      addStep("error", "Stopped", "Hit max iterations without drafting an appeal.");
+      addStep("error", "Stopped", "Hit max iterations without drafting an appeal.", true);
       source.close();
       runBtn.disabled = false;
       runBtn.textContent = "Run appeal agent";
@@ -193,4 +325,3 @@ runBtn.addEventListener("click", () => {
 
 </body>
 </html>
-

@@ -1,0 +1,650 @@
+UnitedHealthcare Pharmacy
+Clinical Pharmacy Programs
+Program Number 2025 P 2198-11
+Program Prior Authorization/Medical Necessity
+Medication Adalimumab: Abrilada™ (adalimumab-afzb)*, Adalimumab-aacf
+(unbranded Idacio)*, Adalimumab-adaz (unbranded Hyrimoz),
+Adalimumab-adbm (unbranded Cyltezo)*, Adalimumab-fkjp (unbranded
+Hulio)*, Amjevita™ (adalimumab-atto), Cyltezo® (adalimumab-adbm)*,
+Hadlima™ (adalimumab-bwwd)*, Hulio® (adalimumab-fkjp)*, Humira®
+(adalimumab)*, Hyrimoz® (adalimumab-adaz)*, Idacio® (adalimumab-
+aacf)*, Simlandi® (adalimumab-ryvk)*, Yuflyma® (adalimumab-aaty)*,
+and Yusimry™ (adalimumab-aqvh)*
+* Abrilada (adalimumab-afzb), Adalimumab-aacf (unbranded Idacio),
+Adalimumab-adbm (unbranded Cyltezo), Adalimumab-fkjp (unbranded
+Hulio), Cyltezo (adalimumab-adbm), Hadlima (adalimumab-bwwd), Hulio
+(adalimumab-fkjp), Humira (adalimumab), Hyrimoz (adalimumab-adaz),
+Idacio (adalimumab-aacf), Simlandi (adalimumab-ryvk), Yuflyma
+(adalimumab-aaty), Yusimry (adalimumab-aqvh) are excluded from
+coverage for the majority of our benefits.
+P&T Approval Date 5/2020, 5/2021, 6/2021, 12/2021, 5/2022, 12/2022, 4/2023, 6/2023, 6/2024,
+10/2024, 4/2025, 10/2025
+Effective Date 1/1/2026
+1. Background:
+Adalimumab is a tumor necrosis factor (TNF) blocker indicated for:
+• Rheumatoid Arthritis (RA): reducing signs and symptoms, inducing major clinical response,
+inhibiting the progression of structural damage, and improving physical function in adult patients
+with moderately to severely active RA. Adalimumab can be used alone or in combination with
+methotrexate or other non-biologic disease-modifying anti-rheumatic drugs (DMARDs).
+• Juvenile Idiopathic Arthritis (JIA): reducing signs and symptoms of moderately to severely active
+polyarticular JIA in patients 2 years of age and older. Adalimumab can be used alone or in
+combination with methotrexate.
+• Psoriatic Arthritis (PsA): reducing signs and symptoms, inhibiting the progression of structural
+damage, and improving physical function in adult patients with active PsA.
+• Ankylosing Spondylitis (AS): reducing signs and symptoms in adult patients with active AS.
+Adalimumab can be used alone or in combination with non-biologic DMARDs.
+• Crohn’s Disease (CD): treatment of moderately to severely active Crohn’s disease in adults and
+pediatric patients 6 years of age and older.
+• Ulcerative Colitis (UC): treatment of moderately to severely active ulcerative colitis in adults and
+pediatric patients 5 years of age and older.
+• Plaque Psoriasis (Ps): treatment of adult patients with moderate to severe chronic plaque psoriasis
+who are candidates for systemic therapy or phototherapy, and when other systemic therapies are
+medically less appropriate.
+• Hidradenitis Suppurativa (HS): treatment of moderate to severe hidradenitis suppurativa in
+patients 12 years of age and older.
+• Uveitis (UV): treatment of non-infectious intermediate, posterior, and panuveitis in adults and
+pediatric patients 2 years of age and older.
+© 2025 UnitedHealthcare Services, Inc.
+1
+In ulcerative colitis, effectiveness has not been established in patients who have lost response to or
+were intolerant to TNF blockers.
+2. Coverage Criteriaa:
+A. Rheumatoid Arthritis (RA)
+1. Initial Authorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Diagnosis of moderately to severely active rheumatoid arthritis
+-AND-
+(2) One of the following:
+(a) History of failure to a 3 month trial of one non-biologic disease modifying anti-
+rheumatic drug (DMARD) [e.g., methotrexate, leflunomide, sulfasalazine,
+hydroxychloroquine] at the maximally indicated doses, unless contraindicated or
+clinically significant adverse effects are experienced (document drug, date, and
+duration of trial)b
+-OR-
+(b) Patient has been previously treated with a systemic targeted immunomodulator
+FDA-approved for the treatment of rheumatoid arthritis as documented by
+claims history or submission of medical records (Document drug, date, and
+duration of therapy) [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib),
+Rinvoq (upadacitinib)]
+-OR-
+(c) Both of the following:
+i. Patient is currently on adalimumab therapy as documented by claims history or
+submission of medical records (Document date and duration of therapy):
+-AND-
+ii. Patient has not received a manufacturer supplied sample at no cost in the
+prescriber’s office, or any form of assistance from a manufacturer sponsored
+program (e.g., sample card which can be redeemed at a pharmacy for a free
+supply of medication) as a means to establish as a current user of adalimumab*
+-AND-
+(3) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator. [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+© 2025 UnitedHealthcare Services, Inc.
+2
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib),
+Rinvoq (upadacitinib)] for treatment of the same indication.
+-AND-
+(4) Prescribed by or in consultation with a rheumatologist
+* Patients requesting initial authorization who were established on therapy via the receipt of a
+manufacturer supplied sample at no cost in the prescriber’s office or any form of assistance
+from a manufacturer sponsored program shall be required to meet initial authorization criteria
+as if patient were new to therapy.
+Authorization will be issued for 12 months.
+2. Reauthorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Documentation of positive clinical response to adalimumab therapy
+-AND-
+(2) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator. [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib),
+Rinvoq (upadacitinib)] for treatment of the same indication.
+Authorization will be issued for 12 months.
+B. Polyarticular Juvenile Idiopathic Arthritis (PJIA)
+1. Initial Authorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Diagnosis of moderately to severely active polyarticular juvenile idiopathic
+arthritis
+-AND-
+(2) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib),
+Rinvoq (upadacitinib)] for treatment of the same indication.
+-AND-
+(3) Prescribed by or in consultation with a rheumatologist
+Authorization will be issued for 12 months.
+2. Reauthorization
+© 2025 UnitedHealthcare Services, Inc.
+3
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Documentation of positive clinical response to adalimumab therapy
+-AND-
+(2) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib),
+Rinvoq (upadacitinib)] for treatment of the same indication.
+Authorization will be issued for 12 months.
+C. Psoriatic Arthritis (PsA)
+1. Initial Authorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Diagnosis of active psoriatic arthritis
+-AND-
+(2) One of the following:
+(a) History of failure to a 3 month trial of methotrexate at the maximally indicated dose,
+unless contraindicated or clinically significant adverse effects are experienced
+(document date and duration of trial)b
+-OR-
+(b) Patient has been previously treated with a systemic targeted immunomodulator
+FDA-approved for the treatment of psoriatic arthritis as documented by claims
+history or submission of medical records (Document drug, date, and duration of
+therapy) [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi (golimumab),
+Orencia (abatacept), ustekinumab, Skyrizi (risankizumab), Tremfya (guselkumab),
+Cosentyx (secukinumab), Taltz (ixekizumab), Xeljanz (tofacitinib), Olumiant
+(baricitinib), Rinvoq (upadacitinib), Otezla (apremilast)]
+-OR-
+(c) Both of the following:
+i. Patient is currently on adalimumab therapy as documented by claims history or
+submission of medical records (Document date and duration of therapy):
+-AND-
+ii. Patient has not received a manufacturer supplied sample at no cost in the
+© 2025 UnitedHealthcare Services, Inc.
+4
+prescriber’s office, or any form of assistance from a manufacturer sponsored
+program (e.g., sample card which can be redeemed at a pharmacy for a free
+supply of medication) as a means to establish as a current user of adalimumab*
+-AND-
+(3) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), ustekinumab, Skyrizi (risankizumab), Tremfya
+(guselkumab), Cosentyx (secukinumab), Taltz (ixekizumab), Xeljanz (tofacitinib),
+Olumiant (baricitinib), Rinvoq (upadacitinib), Otezla (apremilast)] for treatment of the
+same indication.
+-AND-
+(4) Prescribed by or in consultation with one of the following:
+(a) Rheumatologist
+(b) Dermatologist
+* Patients requesting initial authorization who were established on therapy via the receipt of a
+manufacturer supplied sample at no cost in the prescriber’s office or any form of assistance
+from a manufacturer sponsored program shall be required to meet initial authorization criteria
+as if patient were new to therapy.
+Authorization will be issued for 12 months.
+2. Reauthorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Documentation of positive clinical response to adalimumab therapy
+-AND-
+(2) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), ustekinumab, Skyrizi (risankizumab), Tremfya
+(guselkumab), Cosentyx (secukinumab), Taltz (ixekizumab), Xeljanz (tofacitinib),
+Olumiant (baricitinib), Rinvoq (upadacitinib), Otezla (apremilast)] for treatment of
+the same indication.
+Authorization will be issued for 12 months.
+D. Plaque Psoriasis
+1. Initial Authorization
+a. Adalimumab will be approved based on all of the following criteria:
+© 2025 UnitedHealthcare Services, Inc.
+5
+(1) Diagnosis of moderate to severe chronic plaque psoriasis
+-AND-
+(2) One of the following:
+(a) All of the following:
+i. Greater than or equal to 3% body surface area involvement, palmoplantar, facial,
+genital involvement, or severe scalp psoriasis
+-AND-
+ii. History of failure to one of the following topical therapies, unless
+contraindicated or clinically significant adverse effects are experienced
+(document drug, date, and duration of trial):
+a. Corticosteroids (e.g., betamethasone, clobetasol, desonide)
+b. Vitamin D analogs (e.g., calcitriol, calcipotriene)
+c. Tazarotene
+d. Calcineurin inhibitors (e.g., tacrolimus, pimecrolimus)
+e. Anthralin
+f. Coal tar
+-AND-
+iii. History of failure to a 3 month trial of methotrexate at the maximally indicated
+dose, unless contraindicated or clinically significant adverse effects are
+experienced (document date and duration of trial)b
+-OR-
+(b) Patient has been previously treated with a systemic targeted immunomodulator
+FDA-approved for the treatment of plaque psoriasis as documented by claims
+history or submission of medical records (document drug, date, and duration of
+therapy) [e.g., Enbrel (etanercept), Cimzia (certolizumab), Orencia (abatacept),
+ustekinumab, Skyrizi (risankizumab), Tremfya (guselkumab), Cosentyx
+(secukinumab), Taltz (ixekizumab), Siliq (brodalumab), Ilumya (tildrakizumab),
+Otezla (apremilast)]
+-OR-
+(c) Both of the following:
+i. Patient is currently on adalimumab therapy as documented by claims history or
+submission of medical records (Document date and duration of therapy)
+-AND-
+ii. Patient has not received a manufacturer supplied sample at no cost in the
+© 2025 UnitedHealthcare Services, Inc.
+6
+prescriber’s office, or any form of assistance from a manufacturer sponsored
+program (e.g., sample card which can be redeemed at a pharmacy for a free
+supply of medication) as a means to establish as a current user of adalimumab*
+-AND-
+(3) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), ustekinumab, Skyrizi (risankizumab), Tremfya
+(guselkumab), Cosentyx (secukinumab), Taltz (ixekizumab), Siliq (brodalumab),
+Ilumya (tildrakizumab), Xeljanz (tofacitinib), Olumiant (baricitinib), Rinvoq
+(upadacitinib), Otezla (apremilast)] for treatment of the same indication.
+-AND-
+(4) Prescribed by or in consultation with a dermatologist
+* Patients requesting initial authorization who were established on therapy via the receipt of a
+manufacturer supplied sample at no cost in the prescriber’s office or any form of assistance
+from a manufacturer sponsored program shall be required to meet initial authorization criteria
+as if patient were new to therapy.
+Authorization will be issued for 12 months.
+2. Reauthorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Documentation of positive clinical response to adalimumab therapy
+-AND-
+(2) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), ustekinumab, Skyrizi (risankizumab), Tremfya
+(guselkumab), Cosentyx (secukinumab), Taltz (ixekizumab), Siliq (brodalumab),
+Ilumya (tildrakizumab), Xeljanz (tofacitinib), Olumiant (baricitinib), Rinvoq
+(upadacitinib), Otezla (apremilast)] for treatment of the same indication.
+Authorization will be issued for 12 months.
+E. Ankylosing Spondylitis (AS)
+1. Initial Authorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Diagnosis of active ankylosing spondylitis
+-AND-
+© 2025 UnitedHealthcare Services, Inc.
+7
+(2) One of the following:
+(a) History of failure to two NSAIDs (e.g., ibuprofen, naproxen) at maximally
+indicated doses, each used for at least 4 weeks, unless contraindicated or clinically
+significant adverse effects are experienced (document drug, date, and duration of
+trials)
+-OR-
+(b) Patient has been previously treated with a systemic targeted immunomodulator
+FDA-approved for the treatment of ankylosing spondylitis as documented by
+claims history or submission of medical records (Document drug, date, and
+duration of therapy) [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Xeljanz (tofacitinib), Rinvoq (upadacitinib)]
+-OR-
+(c) Both of the following:
+i. Patient is currently on adalimumab therapy as documented by claims history or
+submission of medical records (Document date and duration of therapy):
+-AND-
+ii. Patient has not received a manufacturer supplied sample at no cost in the
+prescriber’s office, or any form of assistance from a manufacturer sponsored
+program (e.g., sample card which can be redeemed at a pharmacy for a free
+supply of medication) as a means to establish as a current user of adalimumab*
+-AND-
+(3) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib),
+Rinvoq (upadacitinib)] for treatment of the same indication.
+-AND-
+(4) Prescribed by or in consultation with a rheumatologist
+* Patients requesting initial authorization who were established on therapy via the receipt of a
+manufacturer supplied sample at no cost in the prescriber’s office or any form of assistance
+from a manufacturer sponsored program shall be required to meet initial authorization criteria
+as if patient were new to therapy.
+Authorization will be issued for 12 months.
+2. Reauthorization
+© 2025 UnitedHealthcare Services, Inc.
+8
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Documentation of positive clinical response to adalimumab therapy
+-AND-
+(2) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib),
+Rinvoq (upadacitinib)] for treatment of the same indication.
+Authorization will be issued for 12 months.
+F. Crohn’s Disease (CD)
+1. Initial Authorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Diagnosis of moderately to severely active Crohn’s disease
+-AND-
+(2) One of the following:
+(a) History of failure to one of the following conventional therapies at up to maximally
+indicated doses, unless contraindicated or clinically significant adverse effects are
+experienced (document drug, date, and duration of trial):
+i. Corticosteroids (e.g., prednisone, methylprednisolone, budesonide)
+ii. 6-mercaptopurine (Purinethol)
+iii. Azathioprine (Imuran)
+iv. Methotrexate (Rheumatrex, Trexall)
+-OR-
+(b) Patient has been previously treated with a systemic targeted immunomodulator
+FDA-approved for the treatment of Crohn’s disease as documented by claims
+history or submission of medical records (Document drug, date, and duration of
+therapy) [e.g., Cimzia (certolizumab), ustekinumab, Skyrizi (risankizumab),
+Entyvio (vedolizumab), Omvoh (mirikizumab-mrkz), Tremfya (guselkumab)]
+-OR-
+(c) Both of the following:
+i. Patient is currently on adalimumab therapy as documented by claims history or
+submission of medical records (Document date and duration of therapy):
+-AND-
+© 2025 UnitedHealthcare Services, Inc.
+9
+ii. Patient has not received a manufacturer supplied sample at no cost in the
+prescriber’s office, or any form of assistance from a manufacturer sponsored
+program (e.g., sample card which can be redeemed at a pharmacy for a free
+supply of medication) as a means to establish as a current user of adalimumab*
+-AND-
+(3) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib),
+Rinvoq (upadacitinib), ustekinumab, Skyrizi (risankizumab), Entyvio
+(vedolizumab), Omvoh (mirikizumab-mrkz), Tremfya (guselkumab)] for treatment
+of the same indication.
+-AND-
+(4) Prescribed by or in consultation with a gastroenterologist
+* Patients requesting initial authorization who were established on therapy via the receipt of a
+manufacturer supplied sample at no cost in the prescriber’s office or any form of assistance
+from a manufacturer sponsored program shall be required to meet initial authorization criteria
+as if patient were new to therapy.
+Authorization will be issued for 12 months.
+2. Reauthorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Documentation of positive clinical response to adalimumab therapy
+-AND-
+(2) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib),
+Rinvoq (upadacitinib), ustekinumab, Skyrizi (risankizumab), Entyvio
+(vedolizumab), Omvoh (mirikizumab-mrkz), Tremfya (guselkumab)] for treatment
+of the same indication.
+Authorization will be issued for 12 months.
+G. Ulcerative Colitis
+1. Initial Authorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Diagnosis of moderately to severely active ulcerative colitis
+© 2025 UnitedHealthcare Services, Inc.
+10
+-AND-
+(2) One of the following:
+(a) Patient has had prior or concurrent inadequate response to a therapeutic course of
+oral corticosteroids and/or immunosuppressants (e.g., azathioprine, 6-
+mercaptopurine)
+-OR-
+(b) Patient has been previously treated with a systemic targeted immunomodulator
+FDA-approved for the treatment of ulcerative colitis as documented by claims
+history or submission medical records (Document drug, date, and duration of
+therapy) [e.g., Simponi (golimumab), ustekinumab, Xeljanz (tofacitinib), Rinvoq
+(upadacitinib), Entyvio (vedolizumab), Omvoh (mirikizumab-mrkz), Tremfya
+(guselkumab)].
+-OR-
+(c) Both of the following:
+i. Patient is currently on adalimumab therapy as documented by claims history or
+submission of medical records (Document date and duration of therapy):
+-AND-
+ii. Patient has not received a manufacturer supplied sample at no cost in the
+prescriber’s office, or any form of assistance from a manufacturer sponsored
+program (e.g., sample card which can be redeemed at a pharmacy for a free
+supply of medication) as a means to establish as a current user of adalimumab*
+-AND-
+(3) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib),
+Rinvoq (upadacitinib), ustekinumab, Skyrizi (risankizumab), Entyvio
+(vedolizumab), Omvoh (mirikizumab-mrkz), Tremfya (guselkumab)] for treatment
+of the same indication.
+-AND-
+(4) Prescribed by or in consultation with a gastroenterologist
+* Patients requesting initial authorization who were established on therapy via the receipt of a
+manufacturer supplied sample at no cost in the prescriber’s office or any form of assistance
+from a manufacturer sponsored program shall be required to meet initial authorization criteria
+as if patient were new to therapy.
+© 2025 UnitedHealthcare Services, Inc.
+11
+Authorization will be issued for 12 months.
+2. Reauthorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Documentation of positive clinical response to adalimumab therapy
+-AND-
+(2) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib),
+Rinvoq (upadacitinib), ustekinumab, Skyrizi (risankizumab), Entyvio
+(vedolizumab), Omvoh (mirikizumab-mrkz), Tremfya (guselkumab)] for treatment
+of the same indication.
+Authorization will be issued for 12 months.
+H. Hidradenitis Suppurativa (HS)
+1. Initial Authorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Diagnosis of moderate to severe hidradenitis suppurativa (i.e., Hurley Stage II or
+III)
+-AND-
+(2) One of the following:
+(a) History of failure to at least one oral antibiotic (e.g., doxycycline, clindamycin,
+rifampin) at maximally indicated doses, unless contraindicated or clinically
+significant adverse effects are experienced (document drug, date, and duration of
+trial)
+-OR-
+(b) Both of the following:
+i. Patient is currently on adalimumab therapy as documented by claims history or
+submission of medical records (Document date and duration of therapy):
+-AND-
+ii. Patient has not received a manufacturer supplied sample at no cost in the
+prescriber’s office, or any form of assistance from a manufacturer sponsored
+program (e.g., sample card which can be redeemed at a pharmacy for a free
+supply of medication) as a means to establish as a current user of adalimumab*
+© 2025 UnitedHealthcare Services, Inc.
+12
+-AND-
+(3) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib), Rinvoq
+(upadacitinib)] for treatment of the same indication.
+-AND-
+(4) Prescribed by or in consultation with a dermatologist
+* Patients requesting initial authorization who were established on therapy via the receipt of a
+manufacturer supplied sample at no cost in the prescriber’s office or any form of assistance
+from a manufacturer sponsored program shall be required to meet initial authorization criteria
+as if patient were new to therapy.
+Authorization will be issued for 12 months.
+2. Reauthorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Documentation of positive clinical response to adalimumab therapy.
+-AND-
+(2) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib),
+Rinvoq (upadacitinib)] for treatment of the same indication.
+Authorization will be issued for 12 months.
+I. Uveitis (UV)
+1. Initial Authorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Diagnosis of non-infectious uveitis
+-AND-
+(2) Uveitis is classified as one of the following:
+(a) intermediate
+(b) posterior
+(c) panuveitis
+© 2025 UnitedHealthcare Services, Inc.
+13
+-AND-
+(3) One of the following:
+(a) Both of the following:
+i. History of failure to at least one corticosteroid (e.g., prednisolone,
+prednisone) at maximally indicated dose, unless contraindicated or
+clinically significant adverse effects are experienced (document drug, date,
+and duration of trial)
+-AND-
+ii. History of failure to at least one systemic non-biologic immunosuppressant
+(e.g., methotrexate, cyclosporine, azathioprine, mycophenolate) at up to a
+maximally indicated dose, unless contraindicated or clinically significant
+adverse effects are experienced (document drug, date, and duration of trial)
+-OR-
+(b) Both of the following:
+i. Patient is currently on adalimumab therapy as documented by claims history or
+submission of medical records (Document date and duration of therapy):
+-AND-
+ii. Patient has not received a manufacturer supplied sample at no cost in the
+prescriber’s office, or any form of assistance from a manufacturer sponsored
+program (e.g., sample card which can be redeemed at a pharmacy for a free
+supply of medication) as a means to establish as a current user of adalimumab*
+-AND-
+(4) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib),
+Rinvoq (upadacitinib)] for treatment of the same indication.
+-AND-
+(5) Prescribed by or in consultation with one of the following:
+(a) Rheumatologist
+(b) Ophthalmologist
+* Patients requesting initial authorization who were established on therapy via the receipt of a
+manufacturer supplied sample at no cost in the prescriber’s office or any form of assistance
+from a manufacturer sponsored program shall be required to meet initial authorization criteria
+as if patient were new to therapy.
+© 2025 UnitedHealthcare Services, Inc.
+14
+Authorization will be issued for 12 months.
+2. Reauthorization
+a. Adalimumab will be approved based on all of the following criteria:
+(1) Documentation of positive clinical response to adalimumab therapy.
+-AND-
+(2) Patient is not receiving adalimumab in combination with another systemic targeted
+immunomodulator [e.g., Enbrel (etanercept), Cimzia (certolizumab), Simponi
+(golimumab), Orencia (abatacept), Xeljanz (tofacitinib), Olumiant (baricitinib),
+Rinvoq (upadacitinib)] for treatment of the same indication.
+Authorization will be issued for 12 months.
+a State mandates may apply. Any federal regulatory requirements and the member specific benefit
+plan coverage may also impact coverage criteria. Other policies and utilization management
+programs may apply.
+b For Connecticut, Kentucky and Mississippi business only a 30-day trial will be required.
+* Abrilada (adalimumab-afzb), Adalimumab-aacf (unbranded Idacio), Adalimumab-adbm (unbranded
+Cyltezo), Adalimumab-fkjp (unbranded Hulio), Cyltezo (adalimumab-adbm), Hadlima (adalimumab-
+bwwd), Hulio (adalimumab-fkjp), Humira (adalimumab), Hyrimoz (adalimumab-adaz), Idacio
+(adalimumab-aacf), Simlandi (adalimumab-ryvk), Yuflyma (adalimumab-aaty), Yusimry (adalimumab-
+aqvh) are excluded from coverage for the majority of our benefits.
+3. Additional Clinical Rules:
+• Notwithstanding Coverage Criteria, UnitedHealthcare may approve initial and re-authorization
+based solely on previous claim/medication history, diagnosis codes (ICD-10) and/or claim logic.
+Use of automated approval and re-approval processes varies by program and/or therapeutic class.
+• Supply limits may be in place.
+4. References:
+1. Humira [package insert]. North Chicago, IL: AbbVie Inc.; February 2024.
+2. Ward MM, Deodhar, A, Gensler, LS, et al. 2019 Update of the American College of
+Rheumatology/Spondylitis Association of America/Spondyloarthritis Research and Treatment
+Network Recommendations for the Treatment of Ankylosing Spondylitis and Nonradiographic
+Axial Spondyloarthritis. Arthritis & Rheumatology. 2019; 71(10): 1599-1613.
+3. Yu, DT, van Tubergen A. Treatment of axial spondyloarthritis (ankylosing spondylitis and
+nonradiographic axial spondyloarthritis) in adults. Sieper, J (Ed). UpToDate. Waltham, MA:
+UpToDate Inc. http://www.uptodate.com (Accessed on October 10, 2019.)
+4. Singh, JA, Guyatt, G, et al. 2018 American College of Rheumatology/National Psoriasis
+Foundation Guideline for the Treatment of Psoriatic Arthritis. Arthritis & Rheumatology. 2019;
+71(1): 5-32.
+© 2025 UnitedHealthcare Services, Inc.
+15
+5. Menter A, Gottlieb A, Feldman SR, et al. Guidelines of care for the management of psoriasis and
+psoriatic arthritis: Section 1. Overview of psoriasis and guidelines of care for the treatment of
+psoriasis with biologics. J Am Acad Dermatol 2008; 58(5):826-50.
+6. Gottlieb A, Korman NJ, Gordon KB, et al. Guidelines of care for the management of psoriasis
+and psoriatic arthritis. Psoriatic arthritis: Overview and guidelines of care for treatment with an
+emphasis on the biologics. J Am Acad Dermatol 2008;58(5):851-64.
+7. Menter A, Korman NJ, Elmets CA, et al. Guidelines of care for the management of psoriasis and
+psoriatic arthritis. Section 3. Guidelines of care for the management and treatment of psoriasis
+with topical therapies. J Am Acad Dermatol 2009;60(4):643-59.
+8. Menter A, Korman NJ, Elmets CA, et al. Guidelines of care for the management of psoriasis and
+psoriatic arthritis. Guidelines of care for the treatment of psoriasis with phototherapy and
+photochemotherapy. J Am Acad Dermatol 2010;62(1):114-35.
+9. Menter A, Korman NJ, Elmets CA, et al. Guidelines of care for the management of psoriasis and
+psoriatic arthritis. Guidelines of care for the management and treatment of psoriasis with
+traditional systemic agents. J Am Acad Dermatol 2009;61(3):451-85.
+10. Nast A, et al; European S3-Guidelines on the systemic treatment of psoriasis vulgaris – update
+2015 – short version – EFF in cooperation with EADV and IPC, J Eur Acad Derm Venereol
+2015;29:2277-94.
+11. Menter A, Korman NJ, Elmets CA,Feldman SR, Gelfand JM, Gordon KB, Guidelines of care for
+the management of psoriasis and psoriatic arthritis: section 6. Guidelines of care for the treatment
+of psoriasis and psoriatic arthritis: case-based presentations and evidence-based conclusions. J
+Am Acad Dermatol. 2011 Jul;65(1):137-74.
+12. Gossec L, et al; European League Against Rheumatism (EULAR) recommendations for the
+management of psoriatic arthritis with pharmacological therapies: 2015 update, Ann Rheum Dis
+2016;75:499-510.
+13. Ingram, JR. Hidradenitis suppurativa: Treatment. Dellavalle, RP, Dahl, MV (Ed). UpToDate.
+Waltham, MA: UpToDate Inc. http://www.uptodate.com (Accessed on October 29, 2019.)
+14. Rosenbaum, JT. Uveitis: Treatment. Trobe, J (Ed). UpToDate. Waltham, MA: UpToDate Inc.
+http://www.uptodate.com (Accessed on October 30, 2019).
+15. Feuerstein JD, Isaacs KL, Schneider Y, et al. AGA clinical practice guidelines on the
+management of moderate to severe ulcerative colitis. Gastroenterology. 2020; 158(5):1450-61.
+16. Lichtenstein GR, Loftus EV, Isaacs KL, et al ACG clinical guideline: management of Crohn’s
+disease in adults. Am J Gastroenterol. 2018; 113:481-517.
+17. Menter A, Strober BE, Kaplan DH, et al. Joint AAD-NPF guidelines of care for the management
+and treatment of psoriasis with biologics. J Am Acad Dermatol. 2019;80:1029-72.
+18. Amjevita [package insert]. Thousand Oaks, CA: Amgen Inc.; August 2023.
+19. Cyltezo [package insert]. Ridgefield, CT: Boehringer Ingelheim Pharmaceuticals, Inc.; June 2023
+20. Hyrimoz [package insert]. Princeton, NJ: Sandoz, Inc.; April 2023.
+21. Hadlima [package insert]. Jersey City, NJ: Organon & Co.; July 2023.
+22. Hulio [package insert]. Morgantown, WV: Mylan Pharmaceuticals Inc.; December 2023.
+23. Yusimry [package insert]. Redwood City, CA: Coherus BioSciences, Inc.; September 2023.
+24. Yuflyma [package insert]. Jersey City, NJ: Celltrion USA, Inc.; December 2023.
+25. Idacio [package insert], Lake Zurich, IL: Fresenius Kabi USA, LLC; October 2023.
+26. Abrilada [package insert], New York, NY: Pfizer, Inc.; January 2024.
+27. Simlandi [package insert], Leesburg, VA: Alvotech USA Inc.; February 2024.
+© 2025 UnitedHealthcare Services, Inc.
+16
+Program Prior Authorization/Medical Necessity - Adalimumab: Abrilada
+(adalimumab-afzb)*, Adalimumab-aacf (unbranded Idacio)*,
+Adalimumab-adaz (unbranded Hyrimoz), Adalimumab-adbm
+(unbranded Cyltezo)*, Adalimumab-fkjp (unbranded Hulio)*, Amjevita
+(adalimumab-atto), Cyltezo (adalimumab-adbm)*, Hadlima
+(adalimumab-bwwd)*, Hulio (adalimumab-fkjp)*, Humira
+(adalimumab)*, Hyrimoz (adalimumab-adaz)*, Idacio (adalimumab-
+aacf)*, Simlandi (adalimumab-ryvk)*, Yuflyma (adalimumab-aaty)*,
+and Yusimry (adalimumab-aqvh)*
+Change Control
+5/2020 New Program
+5/2021 Annual review. Updated Crohn’s disease coverage criteria according to
+FDA label. Removed preceding month requirement from failure
+criteria. Removed prescriber requirement from reauthorization criteria.
+Removed drug documentation where only one drug is required.
+References and background updated.
+6/2021 Added coverage criteria for patients previously treated with a biologic
+DMARD. Added clarification that submission of medical records is
+required documenting previous or current therapy with a biologic
+DMARD in order to bypass step through non-biologic therapies if claim
+history not available.
+12/2021 Updated conventional DMARD bypass language for rheumatoid
+arthritis, psoriatic arthritis, psoriasis and ulcerative colitis with no
+change to clinical intent. Updated initial authorization duration to 12
+months for ulcerative colitis. Updated CT/KY footnote.
+5/2022 Added targeted synthetic DMARD to bypass criteria for AS. Added
+Rinvoq and Xeljanz as JAK inhibitor examples where applicable.
+Added Mississippi to state mandate.
+12/2022 Renamed program to Adalimumab: Humira® (adalimumab) and
+Amjevita™ (adalimumab-atto) to add Amjevita to the program.
+Replaced Humira with adalimumab throughout the program to allow
+coverage for either Humira or Amjevita with no change to overall
+coverage criteria. Added Rinvoq as JAK inhibitor example. Updated
+reference.
+4/2023 Added Cyltezo to the program. Updated references.
+6/2023 Added Abrilada (adalimumab-afzb), Adalimumab-adaz (unbranded
+Hyrimoz), Adalimumab-fkjp (unbranded Hulio), Hyrimoz
+(adalimumab-adaz), Hadlima (adalimumab-bwwd), Hulio
+(adalimumab-fkjp), Idacio (adalimumab-aacf), Yusimry (adalimumab-
+aqvh), and Yuflyma (adalimumab-aaty). Added notation some are
+excluded from coverage for the majority of our benefits. Updated
+refefrences. Updated not receiving in combination language to targeted
+immunomodulator and updated examples.
+6/2024 Annual review. Added Adalimumab-aacf (unbranded Idacio),
+Adalimumab-adbm (unbranded Cyltezo), and Simlandi (adalimumab-
+ryvk) to the program. Noted Humira, Hadlima, Amjevita high
+concentration, Adalimumab-adbm (unbranded Cyltezo), and
+Adalimumab-adaz (unbranded Hyrimoz) as covered products. All other
+products are noted as excluded. Updated references and state mandate
+footnote.
+© 2025 UnitedHealthcare Services, Inc.
+17
+10/2024 Updated to note Adalimumab-adaz (unbranded Hyrimoz), Amjevita for
+Nuvaila, and Humira as covered products. All other products are noted
+as excluded.
+4/2025 Removed notation that only Amjevita (adalimumab-atto) for Nuvaila is
+covered. All other Amjevita (adalimumab-atto) products are excluded
+from coverage for the majority of our benefits. Updated Stelara
+examples to ustekinumab. Added Entyvio (vedolizumab), Omvoh
+(mirikizumab-mrkz), Tremfya (guselkumab) as examples of not used in
+combination for UC and CD.
+10/2025 Added notation Humira is excluded from coverage for the majority of
+our benefits. Added notation Humira is excluded from coverage for the
+majority of our benefits. Updated combination examples notating
+“systemic” with no change to clinical intent.
+© 2025 UnitedHealthcare Services, Inc.
+18

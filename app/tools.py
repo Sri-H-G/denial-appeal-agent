@@ -1,6 +1,10 @@
 """
 Four tools the agent can call. Each is a plain Python function over the
-flat sample_data/*.txt files -- no vector DB, no embeddings.
+flat sample_data/*.txt files -- no vector DB, no embeddings. Parsing is
+regex/structure-based on purpose: these documents have predictable
+headers (dated note sections, numbered policy clauses), so we exploit
+that structure directly rather than pretending we need semantic search
+for a demo with three documents.
 """
 
 import re
@@ -8,23 +12,48 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "sample_data"
 
+# Each "case" is a self-contained denial scenario: its own denial letter
+# and chart. Adding a new case means adding an entry here plus two files
+# -- nothing else in this module needs to change.
+CASES = {
+    "synthetic": {
+        "denial": "denial_letter.txt",
+        "chart": "patient_chart.txt",
+    },
+    "uhc_real": {
+        "denial": "real_world/uhc_denial_letter.txt",
+        "chart": "real_world/uhc_patient_chart.txt",
+    },
+}
+
 
 def _read(name: str) -> str:
     return (DATA_DIR / name).read_text()
 
-def parse_denial() -> dict:
+
+# ---------------------------------------------------------------------
+# Tool 1: parse_denial
+# ---------------------------------------------------------------------
+def parse_denial(case: str = "synthetic") -> dict:
     """
-    Extract structured denial reasons from the denial letter: each
-    cited policy criterion ID plus the rationale paragraph the payer
-    gave for it. This is the agent's starting point.
+    Extract structured denial reasons from the denial letter for the
+    given case: each cited policy criterion ID plus the rationale
+    paragraph the payer gave for it. This is the agent's starting
+    point -- it defines what has to be rebutted.
     """
-    text = _read("denial_letter.txt")
+    denial_file = CASES[case]["denial"]
+    text = _read(denial_file)
 
     determination_match = re.search(r"Determination:\s*(.+)", text)
     determination = determination_match.group(1).strip() if determination_match else None
 
+    # Denial reasons are formatted as "Criterion <ID> - Title" followed
+    # by a rationale paragraph. The ID pattern is intentionally generic
+    # (word characters, dots, hyphens, parens) so it matches both the
+    # synthetic RX-114.x style and a plausible real-payer style like
+    # RA-2(a) -- we don't want this hardcoded to one insurer's format.
     reason_pattern = re.compile(
-        r"Criterion\s+(RX-[\d.]+[a-z]?)\s*-\s*(.+?)\n(.*?)(?=\nCriterion\s+RX-|\nThis determination was made by)",
+        r"Criterion\s+([\w.\-()]+)\s*-\s*(.+?)\n(.*?)(?=\nCriterion\s+[\w.\-()]+\s*-|\nThis determination was made by|\nYou may request a peer-to-peer)",
         re.DOTALL,
     )
 
@@ -47,9 +76,16 @@ def parse_denial() -> dict:
         "denial_reasons": reasons,
     }
 
-def _chart_sections() -> list[dict]:
+
+# ---------------------------------------------------------------------
+# Tool 2: search_chart
+# ---------------------------------------------------------------------
+def _chart_sections(case: str = "synthetic") -> list[dict]:
     """Split the chart into its dated note sections."""
-    text = _read("patient_chart.txt")
+    chart_file = CASES[case]["chart"]
+    text = _read(chart_file)
+    # Sections are delimited by a dashed line, a date, and a header line,
+    # then another dashed line.
     pattern = re.compile(
         r"-{5,}\n(\d{2}/\d{2}/\d{4}) - (.+?) - (.+?)\n-{5,}\n(.*?)(?=\n-{5,}\n\d{2}/\d{2}/\d{4}|\n--- SYNTHETIC)",
         re.DOTALL,
@@ -68,12 +104,13 @@ def _chart_sections() -> list[dict]:
     return sections
 
 
-def search_chart(query: str) -> dict:
+def search_chart(query: str, case: str = "synthetic") -> dict:
     """
     Keyword-overlap search over chart note sections. Returns the
-    top-scoring sections with their date.
+    top-scoring sections with their date, so the agent can build a
+    timeline of evidence rather than getting one flat blob of chart text.
     """
-    sections = _chart_sections()
+    sections = _chart_sections(case=case)
     query_terms = set(re.findall(r"[a-z0-9]+", query.lower()))
 
     scored = []
@@ -85,15 +122,27 @@ def search_chart(query: str) -> dict:
             scored.append((len(overlap), s))
 
     scored.sort(key=lambda pair: pair[0], reverse=True)
+
     results = [s for _, s in scored[:5]]
     return {"query": query, "matches": results}
 
+
+# ---------------------------------------------------------------------
+# Tool 3: get_policy_clause
+# ---------------------------------------------------------------------
 def _policy_clauses() -> dict:
     """
-    Line-by-line parser: a header line starts with a clause ID
-    immediately followed by an ALL-CAPS title, e.g.
-    "RX-114.2b  EXCEPTION - INTOLERANCE". Everything else is body
-    text belonging to whichever clause we're currently inside.
+    Line-based parser. A header line is one that STARTS (after stripping
+    leading whitespace) with a clause ID immediately followed by an
+    all-caps title on the same line, e.g. "RX-114.2b  EXCEPTION -
+    INTOLERANCE". Body lines are everything until the next header line
+    or a top-level roman-numeral section (III., IV., etc).
+
+    A regex-only approach over the whole text is fragile here: clause
+    IDs also appear inline inside wrapped body text (e.g. "...satisfies
+    RX-114.2." wrapped onto its own line), which a lookahead-based
+    single regex can mistake for the next header. Parsing line by line
+    avoids that ambiguity.
     """
     text = _read("policy_rx114.txt")
     header_re = re.compile(r"^\s*(RX-114\.\d[a-z]?)\s{2,}([A-Z][A-Z0-9 ()\-]+)\s*$")
@@ -134,7 +183,8 @@ def _policy_clauses() -> dict:
 def get_policy_clause(clause_id: str) -> dict:
     """
     Fetch a specific policy clause or sub-clause by ID, e.g. 'RX-114.2'
-    or 'RX-114.2a'.
+    or 'RX-114.2a'. This is how the agent finds exceptions the denial
+    letter didn't cite -- it has to go looking for them.
     """
     clauses = _policy_clauses()
     match = clauses.get(clause_id.strip())
@@ -145,15 +195,25 @@ def get_policy_clause(clause_id: str) -> dict:
         "available_clause_ids": sorted(clauses.keys()),
     }
 
-def draft_appeal(rebuttals: list[dict]) -> dict:
+
+# ---------------------------------------------------------------------
+# Tool 4: draft_appeal
+# ---------------------------------------------------------------------
+def draft_appeal(rebuttals: list[dict], case: str = "synthetic") -> dict:
     """
     Compose the final appeal letter from a list of rebuttals. Each
-    rebuttal is a dict with:
+    rebuttal must be a dict with:
         denial_clause_id: the criterion being rebutted (e.g. "RX-114.2")
         argument: the agent's rebuttal argument, in its own words
-        evidence: list of {source, text} pulled from prior tool results
+        evidence: list of short quotes/spans pulled from chart/policy
+                  tool results, each with a `source` and `text` field
+
+    This tool is intentionally deterministic templating, not another
+    model call -- the agent has already done the reasoning; this just
+    assembles it into letter format. Keeps the loop auditable: every
+    sentence in the output traces back to a specific prior tool result.
     """
-    denial = parse_denial()
+    denial = parse_denial(case=case)
 
     lines = []
     lines.append("APPEAL OF ADVERSE BENEFIT DETERMINATION")
@@ -183,6 +243,58 @@ def draft_appeal(rebuttals: list[dict]) -> dict:
     letter = "\n".join(lines)
     return {"letter": letter, "rebuttal_count": len(rebuttals)}
 
+
+def _chunk_text(text: str, chunk_size: int = 700, overlap: int = 150) -> list[str]:
+    """
+    Generic sliding-window chunker. Makes no assumptions about document
+    structure -- no clause IDs, no headers, no blank-line paragraphs
+    required. This is what lets the same search technique work on a
+    clean synthetic policy AND a messy real-world payer PDF.
+    """
+    chunks = []
+    start = 0
+    while start < len(text):
+        end = start + chunk_size
+        chunks.append(text[start:end])
+        start += chunk_size - overlap
+    return chunks
+
+
+def search_policy(policy_file: str, query: str) -> dict:
+    """
+    Keyword-overlap search over ANY policy document, chunked into
+    overlapping windows. Use this for real-world payer documents that
+    don't have clean clause IDs like the synthetic RX-114 policy does.
+
+    policy_file: filename under sample_data/ or sample_data/real_world/
+    """
+    candidate_paths = [DATA_DIR / policy_file, DATA_DIR / "real_world" / policy_file]
+    text = None
+    for path in candidate_paths:
+        if path.exists():
+            text = path.read_text()
+            break
+    if text is None:
+        return {"error": f"Policy file '{policy_file}' not found."}
+
+    chunks = _chunk_text(text)
+    query_terms = set(re.findall(r"[a-z0-9]+", query.lower()))
+
+    scored = []
+    for chunk in chunks:
+        chunk_terms = set(re.findall(r"[a-z0-9]+", chunk.lower()))
+        overlap_count = len(query_terms & chunk_terms)
+        if overlap_count:
+            scored.append((overlap_count, chunk))
+
+    scored.sort(key=lambda pair: pair[0], reverse=True)
+    top_chunks = [" ".join(c.split()) for _, c in scored[:3]]
+    return {"policy_file": policy_file, "query": query, "matches": top_chunks}
+
+
+# ---------------------------------------------------------------------
+# Tool schemas for the Anthropic API
+# ---------------------------------------------------------------------
 TOOL_SCHEMAS = [
     {
         "name": "parse_denial",
@@ -190,7 +302,16 @@ TOOL_SCHEMAS = [
             "Extract the structured denial reasons (policy clause IDs and "
             "rationale) from the denial letter. Call this first."
         ),
-        "input_schema": {"type": "object", "properties": {}, "required": []},
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "case": {
+                    "type": "string",
+                    "description": "Which case to load: 'synthetic' (default) or 'uhc_real'.",
+                }
+            },
+            "required": [],
+        },
     },
     {
         "name": "search_chart",
@@ -202,7 +323,11 @@ TOOL_SCHEMAS = [
         "input_schema": {
             "type": "object",
             "properties": {
-                "query": {"type": "string", "description": "Search terms"}
+                "query": {"type": "string", "description": "Search terms"},
+                "case": {
+                    "type": "string",
+                    "description": "Which case to load: 'synthetic' (default) or 'uhc_real'.",
+                },
             },
             "required": ["query"],
         },
@@ -211,8 +336,9 @@ TOOL_SCHEMAS = [
         "name": "get_policy_clause",
         "description": (
             "Fetch the exact text of a policy clause or sub-clause by ID, "
-            "e.g. 'RX-114.2' or 'RX-114.2a'. Use this to check for "
-            "exceptions the denial letter did not cite."
+            "e.g. 'RX-114.2' or 'RX-114.2a'. ONLY use this for the synthetic "
+            "RX-114 policy, which has clean lettered clause IDs. Do not use "
+            "this for real-world payer documents -- use search_policy instead."
         ),
         "input_schema": {
             "type": "object",
@@ -220,6 +346,25 @@ TOOL_SCHEMAS = [
                 "clause_id": {"type": "string", "description": "e.g. 'RX-114.2a'"}
             },
             "required": ["clause_id"],
+        },
+    },
+    {
+        "name": "search_policy",
+        "description": (
+            "Search a policy document by keyword when it does NOT use "
+            "clean clause IDs (e.g. real-world payer PDFs like "
+            "'uhc_adalimumab_policy.txt'). Use get_policy_clause instead "
+            "for the synthetic RX-114 policy, which has clean IDs. "
+            "policy_file must be a filename under sample_data/ or "
+            "sample_data/real_world/."
+        ),
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "policy_file": {"type": "string", "description": "e.g. 'uhc_adalimumab_policy.txt'"},
+                "query": {"type": "string", "description": "Search terms"},
+            },
+            "required": ["policy_file", "query"],
         },
     },
     {
@@ -253,7 +398,11 @@ TOOL_SCHEMAS = [
                         },
                         "required": ["denial_clause_id", "argument", "evidence"],
                     },
-                }
+                },
+                "case": {
+                    "type": "string",
+                    "description": "Which case to load: 'synthetic' (default) or 'uhc_real'.",
+                },
             },
             "required": ["rebuttals"],
         },
@@ -261,8 +410,9 @@ TOOL_SCHEMAS = [
 ]
 
 TOOL_FUNCTIONS = {
-    "parse_denial": lambda **kwargs: parse_denial(),
+    "parse_denial": lambda **kwargs: parse_denial(**kwargs),
     "search_chart": lambda **kwargs: search_chart(**kwargs),
     "get_policy_clause": lambda **kwargs: get_policy_clause(**kwargs),
+    "search_policy": lambda **kwargs: search_policy(**kwargs),
     "draft_appeal": lambda **kwargs: draft_appeal(**kwargs),
 }

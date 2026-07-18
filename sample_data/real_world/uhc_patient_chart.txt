@@ -1,0 +1,84 @@
+RIVERSIDE RHEUMATOLOGY GROUP
+Encounter Summary - Longitudinal Record
+
+Patient:     Bell, Marcus T.       DOB: 11/02/1975 (50M)
+MRN:         RRG-0041887           Sex: Male
+Provider:    Patricia Nomura, MD, Rheumatology
+Insurance:   UnitedHealthcare      ID: UHC-8827104
+
+-------------------------------------------------------------------
+03/04/2019 - NEW PATIENT CONSULTATION - Nomura, P. MD
+-------------------------------------------------------------------
+CC: Bilateral wrist and knee pain, morning stiffness x 8 months.
+HPI: 43M with symmetric polyarthralgia involving wrists, knees, and
+MTPs. Morning stiffness lasting over 60 minutes.
+EXAM: Synovitis of bilateral wrists and knees. 7 tender, 5 swollen
+joints.
+LABS: RF 61 IU/mL (positive). Anti-CCP 98 U/mL (positive). ESR 39
+mm/hr. CRP 2.1 mg/dL.
+ASSESSMENT: Seropositive rheumatoid arthritis, moderate to severe.
+PLAN: Discuss biologic candidacy given seropositive, erosive-risk
+presentation. Baseline labs and TB screening ordered.
+
+-------------------------------------------------------------------
+04/15/2019 - MEDICATION START - Nomura, P. MD
+-------------------------------------------------------------------
+Started ETANERCEPT (Enbrel) 50 mg SC weekly. TB screening negative
+(QuantiFERON-TB Gold, 03/20/2019). Patient counseled on injection
+technique and infection risk monitoring.
+
+-------------------------------------------------------------------
+09/22/2019 - FOLLOW-UP - Nomura, P. MD
+-------------------------------------------------------------------
+Good initial response to etanercept. Tender/swollen joint counts
+reduced by roughly half from baseline. Continuing therapy.
+
+-------------------------------------------------------------------
+02/10/2020 - FOLLOW-UP / MEDICATION CHANGE - Nomura, P. MD
+-------------------------------------------------------------------
+Patient relocated out of state for approximately 18 months (job
+relocation to Ohio); lost to follow-up during this period per
+patient report. Etanercept was discontinued by prior treating
+provider in Ohio due to insurance formulary change upon relocation,
+per patient's verbal history. No adverse effects reported from
+etanercept during the ~10 months of therapy at this practice.
+
+-------------------------------------------------------------------
+05/06/2026 - RETURN VISIT - Nomura, P. MD
+-------------------------------------------------------------------
+Patient has re-established care in Sacramento after relocating back
+to California. Reports symptoms have worsened over the past year
+without consistent biologic therapy. EXAM: Synovitis of bilateral
+wrists, MCPs, and knees. 10 tender, 8 swollen joints. Morning
+stiffness 90+ minutes.
+ASSESSMENT: Active, moderately to severely active seropositive RA,
+history of prior systemic biologic (etanercept) therapy 2019-2020
+with good clinical response; currently off biologic therapy since
+relocation and lapse in care.
+PLAN: Recommend restarting biologic therapy given prior demonstrated
+response to a TNF inhibitor. Given formulary considerations, will
+pursue adalimumab (Humira) rather than re-initiating etanercept.
+Updated TB screening ordered.
+
+-------------------------------------------------------------------
+06/02/2026 - LAB REVIEW / TB SCREENING - Nomura, P. MD
+-------------------------------------------------------------------
+QuantiFERON-TB Gold Plus - NEGATIVE (06/02/2026). RF 74 IU/mL
+(positive). Anti-CCP 110 U/mL (positive). ESR 44 mm/hr. CRP 2.6
+mg/dL.
+
+-------------------------------------------------------------------
+07/08/2026 - TREATMENT PLAN - Nomura, P. MD
+-------------------------------------------------------------------
+Patient has a well-documented history of prior treatment with a
+systemic targeted immunomodulator (etanercept, 2019-2020) indicated
+for rheumatoid arthritis, with good clinical response, prior to a
+care gap caused by relocation. Given active, moderately to severely
+active RA on current exam and prior favorable biologic response,
+initiation of adalimumab is indicated per ACR guidelines.
+PLAN: Initiate ADALIMUMAB 40 mg SC every 14 days. Prior
+authorization submitted to UnitedHealthcare 07/08/2026. Prescribed
+by Dr. Patricia Nomura, board-certified Rheumatologist, Riverside
+Rheumatology Group.
+
+--- SYNTHETIC DOCUMENT - CREATED FOR DEMONSTRATION PURPOSES ---

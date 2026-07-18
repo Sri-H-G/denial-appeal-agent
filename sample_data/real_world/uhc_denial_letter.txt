@@ -1,0 +1,56 @@
+UNITEDHEALTHCARE
+Clinical Pharmacy Prior Authorization Department
+P.O. Box 29077, Hot Springs, AR 71903
+Phone: (800) 555-0199  |  Fax: (800) 555-0198
+July 14, 2026
+Patricia Nomura, MD
+Riverside Rheumatology Group
+220 Elm Street, Suite 4
+Sacramento, CA 95814
+RE:  NOTICE OF ADVERSE BENEFIT DETERMINATION
+     Member Name:        Bell, Marcus T.
+     Member ID:          UHC-8827104
+     Group Number:       55019-C
+     Reference Number:   PA-2026-0714-77201
+     Date of Request:    July 8, 2026
+     Requested Service:  Adalimumab (Humira) 40 mg/0.8 mL SC injection,
+                         1 injection every 14 days
+     HCPCS/NDC:          J0135 / 00074-3799-02
+     Determination:      DENIED - NOT MEDICALLY NECESSARY
+Dear Dr. Nomura:
+We have completed our review of the prior authorization request
+referenced above. Based on the clinical information submitted, the
+requested service does not meet the criteria for coverage under the
+member's benefit plan. This determination was made in accordance
+with UnitedHealthcare Pharmacy Program 2025 P 2198-11 (Adalimumab
+Prior Authorization/Medical Necessity, effective 1/1/2026).
+RATIONALE FOR DETERMINATION
+Criterion RA-2(a) - Conventional DMARD Trial Not Documented
+Program 2025 P 2198-11 requires documented history of failure to a
+3-month trial of a non-biologic disease-modifying antirheumatic drug
+(DMARD) (e.g., methotrexate, leflunomide, sulfasalazine,
+hydroxychloroquine) at maximally indicated doses, unless
+contraindicated or clinically significant adverse effects are
+experienced. No qualifying conventional DMARD trial was identified
+in the records submitted with this request.
+Criterion RA-4 - Rheumatology Prescriber Not Confirmed
+The program requires that the requested medication be prescribed by
+or in consultation with a rheumatologist. The submitted request did
+not include documentation confirming the prescriber's specialty.
+You may request a peer-to-peer discussion with the reviewing
+physician by calling (800) 555-0199, option 3, within ten (10)
+business days of the date of this letter.
+YOUR APPEAL RIGHTS
+You or the member may request an internal appeal of this
+determination within one hundred eighty (180) calendar days of the
+date of this notice. Appeals must be submitted in writing to the
+address above or by fax to (800) 555-0198 and should include any
+additional clinical documentation supporting medical necessity.
+This notice is not a bill. Coverage determinations are subject to
+the terms, limitations, and exclusions of the member's benefit plan
+in effect on the date of service.
+Sincerely,
+Clinical Pharmacy Prior Authorization Department
+UnitedHealthcare
+cc: Bell, Marcus T. (member)
+--- SYNTHETIC DOCUMENT - CREATED FOR DEMONSTRATION PURPOSES ---
