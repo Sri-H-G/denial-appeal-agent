@@ -1,0 +1,93 @@
+NORTHSIDE RHEUMATOLOGY ASSOCIATES
+Encounter Summary - Longitudinal Record
+
+Patient:     Doe, Jane M.          DOB: 03/22/1979 (47F)
+MRN:         NRA-0093312           Sex: Female
+Provider:    Alicia Reyes, MD, Rheumatology
+Insurance:   Meridian Health Plan  ID: MHP-4471902
+
+-------------------------------------------------------------------
+09/12/2025 - NEW PATIENT CONSULTATION - Reyes, A. MD
+-------------------------------------------------------------------
+CC: Bilateral hand pain and morning stiffness x 6 months.
+HPI: 46F with 6 months of symmetric polyarthralgia involving MCPs,
+PIPs, and wrists. Morning stiffness lasting 90-120 minutes.
+EXAM: Synovitis of bilateral 2nd/3rd MCPs and wrists. 8 tender,
+6 swollen joints.
+LABS: RF 84 IU/mL (positive). Anti-CCP 142 U/mL (strongly
+positive). ESR 42 mm/hr. CRP 2.8 mg/dL. Hgb 11.9. ALT 22. AST 19.
+IMAGING: Hand radiographs - periarticular osteopenia, early
+erosive change at right 2nd MCP.
+ASSESSMENT: Seropositive rheumatoid arthritis, moderate to severe,
+erosive. Meets 2010 ACR/EULAR classification criteria.
+PLAN: Initiate csDMARD therapy. Baseline labs and TB screening.
+
+-------------------------------------------------------------------
+10/03/2025 - MEDICATION START - Reyes, A. MD
+-------------------------------------------------------------------
+Started METHOTREXATE 15 mg PO weekly with folic acid 1 mg daily.
+Counseled on hepatotoxicity monitoring. CBC/CMP q6 weeks.
+
+-------------------------------------------------------------------
+11/20/2025 - FOLLOW-UP - Reyes, A. MD
+-------------------------------------------------------------------
+Partial response. Persistent synovitis bilateral MCPs.
+Methotrexate increased to 20 mg PO weekly.
+LABS: ALT 31, AST 28. CBC within normal limits.
+
+-------------------------------------------------------------------
+01/08/2026 - FOLLOW-UP / ADVERSE EVENT - Reyes, A. MD
+-------------------------------------------------------------------
+Patient reports persistent nausea, painful oral ulcerations, and
+fatigue. Unable to tolerate current regimen.
+LABS: ALT 96 U/L (ref 7-35), AST 88 U/L (ref 8-33).
+Baseline ALT was 22 U/L on 09/12/2025.
+ASSESSMENT: Methotrexate-induced hepatotoxicity with mucositis.
+Clinically significant adverse effect.
+PLAN: METHOTREXATE DISCONTINUED after 14 weeks of therapy due to
+hepatotoxicity and intolerable mucosal toxicity. Repeat LFTs in
+4 weeks. Will transition to alternative csDMARD once normalized.
+
+-------------------------------------------------------------------
+02/10/2026 - LAB REVIEW - Reyes, A. MD
+-------------------------------------------------------------------
+ALT 27, AST 24. Transaminases normalized off methotrexate.
+
+-------------------------------------------------------------------
+02/14/2026 - MEDICATION START - Reyes, A. MD
+-------------------------------------------------------------------
+Started LEFLUNOMIDE 20 mg PO daily. Therapeutic dose.
+Counseled on monitoring.
+
+-------------------------------------------------------------------
+05/20/2026 - FOLLOW-UP - Reyes, A. MD
+-------------------------------------------------------------------
+Leflunomide continued at therapeutic dose x 3 months (started
+02/14/2026, ongoing). Tolerated without adverse effect.
+EXAM: Persistent active synovitis of bilateral MCPs and wrists.
+No meaningful improvement in joint counts from baseline.
+ASSESSMENT: INADEQUATE CLINICAL RESPONSE to leflunomide after
+3 consecutive months at therapeutic dose.
+
+-------------------------------------------------------------------
+06/18/2026 - DISEASE ACTIVITY ASSESSMENT - Reyes, A. MD
+-------------------------------------------------------------------
+CDAI SCORE: 28.4  -  HIGH DISEASE ACTIVITY
+  Tender joint count (28):        9
+  Swollen joint count (28):       7
+  Patient global assessment:      6.0 / 10
+  Provider global assessment:     5.0 / 10
+LABS: ESR 38 mm/hr. CRP 2.4 mg/dL.
+TB SCREENING: QuantiFERON-TB Gold Plus - NEGATIVE (06/18/2026).
+
+-------------------------------------------------------------------
+06/25/2026 - TREATMENT PLAN - Reyes, A. MD
+-------------------------------------------------------------------
+Patient has failed or been unable to tolerate two conventional
+synthetic DMARDs and has persistently high disease activity with
+radiographic erosion. Initiation of TNF inhibitor is indicated per
+ACR guidelines.
+PLAN: Initiate ADALIMUMAB 40 mg SC every 14 days.
+Prior authorization submitted to Meridian Health Plan 06/25/2026.
+
+--- SYNTHETIC DOCUMENT - CREATED FOR DEMONSTRATION PURPOSES ---

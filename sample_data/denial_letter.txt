@@ -1,0 +1,65 @@
+MERIDIAN HEALTH PLAN
+Utilization Management Department
+P.O. Box 21847, Columbus, OH 43221
+Phone: (800) 555-0142  |  Fax: (800) 555-0143
+July 10, 2026
+Alicia Reyes, MD
+Northside Rheumatology Associates
+1420 Peachtree St NE, Suite 300
+Atlanta, GA 30309
+RE:  NOTICE OF ADVERSE BENEFIT DETERMINATION
+     Member Name:        Doe, Jane M.
+     Member ID:          MHP-4471902
+     Group Number:       88213-A
+     Reference Number:   PA-2026-0710-33914
+     Date of Request:    June 25, 2026
+     Requested Service:  Adalimumab 40 mg/0.8 mL SC injection,
+                         1 injection every 14 days
+     HCPCS/NDC:          J0135 / 00074-3799-02
+     Place of Service:   Home / Self-administered
+     Determination:      DENIED - NOT MEDICALLY NECESSARY
+Dear Dr. Reyes:
+We have completed our review of the prior authorization request
+referenced above. Based on the clinical information submitted, the
+requested service does not meet the criteria for coverage under the
+member's benefit plan. This determination was made in accordance
+with Meridian Clinical Policy RX-114, Biologic Disease-Modifying
+Antirheumatic Drugs for Rheumatoid Arthritis (rev. 01/01/2026).
+RATIONALE FOR DETERMINATION
+Criterion RX-114.2 - Step Therapy Requirement Not Met
+Policy RX-114.2 requires documented treatment with at least one
+conventional synthetic DMARD for a minimum of three (3) consecutive
+months with inadequate clinical response. The records submitted do
+not document a completed qualifying DMARD trial of at least three
+months' duration.
+Criterion RX-114.3 - Disease Activity Not Documented
+Policy RX-114.3 requires a validated disease activity measure
+(DAS28-CRP, CDAI, or SDAI) obtained within ninety (90) days of the
+request demonstrating moderate or high disease activity. No
+qualifying disease activity score was identified in the submitted
+documentation.
+This determination was made by Robert Vance, MD, Board Certified in
+Internal Medicine. You may request a peer-to-peer discussion with
+the reviewing physician by calling (800) 555-0142, option 4, within
+ten (10) business days of the date of this letter.
+YOUR APPEAL RIGHTS
+You or the member may request an internal appeal of this
+determination within one hundred eighty (180) calendar days of the
+date of this notice. Appeals must be submitted in writing to the
+address above or by fax to (800) 555-0143 and should include any
+additional clinical documentation supporting medical necessity.
+If the request is urgent, an expedited appeal may be requested by
+telephone. Expedited appeals are decided within seventy-two (72)
+hours.
+If the internal appeal is denied, the member may be entitled to an
+independent external review by an Independent Review Organization
+(IRO) at no cost. Information regarding external review is
+available in the member's Evidence of Coverage.
+This notice is not a bill. Coverage determinations are subject to
+the terms, limitations, and exclusions of the member's benefit plan
+in effect on the date of service.
+Sincerely,
+Utilization Management Department
+Meridian Health Plan
+cc: Doe, Jane M. (member)
+--- SYNTHETIC DOCUMENT - CREATED FOR DEMONSTRATION PURPOSES ---

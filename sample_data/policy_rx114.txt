@@ -1,0 +1,77 @@
+MERIDIAN HEALTH PLAN
+CLINICAL POLICY BULLETIN
+Policy Number:      RX-114
+Policy Title:       Biologic Disease-Modifying Antirheumatic Drugs
+                    (bDMARDs) for Rheumatoid Arthritis
+Original Effective: March 1, 2019
+Last Revised:       January 1, 2026
+Next Review:        January 1, 2027
+Applicable Lines:   Commercial, Exchange
+Review Type:        Prior Authorization Required
+I.  SCOPE
+    This policy addresses coverage criteria for tumor necrosis
+    factor (TNF) inhibitors and other biologic DMARDs, including
+    but not limited to adalimumab, etanercept, infliximab,
+    golimumab, and certolizumab pegol, when prescribed for
+    rheumatoid arthritis (RA).
+II. COVERAGE CRITERIA
+    Initial authorization may be approved for twelve (12) months
+    when ALL of the criteria in RX-114.1 through RX-114.4 are met.
+    RX-114.1  DIAGNOSIS
+              Documented diagnosis of moderate to severe active
+              rheumatoid arthritis, established or confirmed by a
+              rheumatologist. Supporting serologic or imaging
+              findings (e.g., rheumatoid factor, anti-CCP
+              antibody, erosive changes) should be documented
+              where available.
+    RX-114.2  CONVENTIONAL DMARD TRIAL (STEP THERAPY)
+              Documented trial of at least one (1) conventional
+              synthetic DMARD - methotrexate, leflunomide,
+              sulfasalazine, or hydroxychloroquine - for a minimum
+              of three (3) consecutive months at a therapeutic
+              dose, with inadequate clinical response.
+              RX-114.2a  EXCEPTION - INTOLERANCE
+                         Discontinuation of a conventional
+                         synthetic DMARD prior to completion of
+                         the three (3) month trial period
+                         satisfies RX-114.2 when the medical
+                         record documents a clinically
+                         significant adverse effect necessitating
+                         discontinuation. Documented adverse
+                         effects include, but are not limited to,
+                         hepatotoxicity, cytopenia, pulmonary
+                         toxicity, or intolerable gastrointestinal
+                         or mucosal effects.
+              RX-114.2b  EXCEPTION - CONTRAINDICATION
+                         A documented contraindication to all
+                         conventional synthetic DMARDs satisfies
+                         RX-114.2.
+    RX-114.3  DISEASE ACTIVITY
+              A validated composite disease activity measure
+              documented within ninety (90) (90) days prior to the
+              request indicating MODERATE or HIGH disease
+              activity. Accepted instruments and thresholds:
+                  DAS28-CRP    >  3.2
+                  CDAI         > 10.0
+                  SDAI         > 11.0
+    RX-114.4  TUBERCULOSIS SCREENING
+              Documented negative tuberculosis screening
+              (interferon-gamma release assay or tuberculin skin
+              test) obtained within twelve (12) months prior to
+              initiation of therapy. Patients with positive
+              screening require documentation of evaluation and
+              treatment for latent tuberculosis infection prior
+              to initiation.
+III. CONTINUATION OF THERAPY
+     Reauthorization may be approved for twelve (12) months when
+     the medical record documents clinical improvement from
+     baseline and continued treatment is recommended by the
+     prescriber.
+IV.  LIMITATIONS AND EXCLUSIONS
+     Concurrent use of two or more biologic DMARDs is not covered.
+V.   CODING
+     J0135  Injection, adalimumab, 20 mg
+VI.  REFERENCES
+     American College of Rheumatology Guideline for the Treatment
+     of Rheumatoid Arthritis. Arthritis Rheumatol. 2021.
+--- SYNTHETIC DOCUMENT - CREATED FOR DEMONSTRATION PURPOSES ---
